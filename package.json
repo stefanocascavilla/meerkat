@@ -1,25 +1,17 @@
 {
-  "name": "meerkat",
+  "name": "Express",
   "version": "1.0.0",
-  "description": "meerkat website",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stefanocascavilla/meerkat.git"
-  },
-  "author": "Stefano Cascavilla <cascavilla1@gmail.com>",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stefanocascavilla/meerkat/issues"
-  },
-  "homepage": "https://github.com/stefanocascavilla/meerkat#readme",
   "dependencies": {
-    "body-parser": "^1.16.0",
     "consolidate": "^0.14.5",
-    "express": "^4.14.1",
+    "express": "^4.14.0",
     "handlebars": "^4.0.6"
   },
   "devDependencies": {

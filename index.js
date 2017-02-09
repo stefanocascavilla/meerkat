@@ -1,27 +1,20 @@
 var express = require('express');
-var bodyParser = require('body-parser');
-var fs = require('fs');
+var app = express();
 var engines = require('consolidate');
 
-var app = express();
-
+app.use(express.static('./views'));
 app.use(express.static('./media'));
+
 app.engine('hbs', engines.handlebars);
-app.set('views', './views');
+app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
 
-app.get('/', function(req, res) {
-	let texts;
-	fs.readFile('texts.json', function(err, data) {
-		if (err) {
-			throw err;
-		}
-		texts = JSON.parse(data);
-	});
+var texts;
 
-	res.render('home', {testi: texts});
+app.get('/', function(req, res){
+  res.render('home.hbs');
 });
 
-app.listen(3000, function() {
-	console.log('Connessi');
-})
+app.listen(3000, function(){
+  console.log('Connessi');
+});
