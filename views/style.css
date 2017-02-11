@@ -1,4 +1,43 @@
 .first {
-	background-image: url('home.png');
-	background-size: cover;
+  background-image: url('home.png');
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.logomeerkat {
+  width: 25%;
+  height: 25%;
+}
+.titlem {
+  font-size: 80px;
+  font-family: Expletus sans;
+  color: black;
+}
+.subtitlem {
+  font-size: 25px;
+  font-family: Expletus sans;
+  color: black;
+}
+.second {
+  background-image: url('weare.jpg');
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.third {
+  background-image:  url('wedo.jpg');
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.fourth {
+  background-color: red;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.fifth {
+  background-image: url('contact.jpg');
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }

@@ -3,11 +3,62 @@
 <head>
   <title> Meerkat </title>
   <link href="style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <head>
 <body>
 
+  <div class="first row">
+    <p align="center">
+      <img src="logo.png" class="logomeerkat"></img>
+      <p align="center" class="titlem"> MEERKAT </p>
+      <p align="center" class="subtitlem"> Just the best. Always. </p>
+    </p>
+  </div>
+  <div class="second row">
+    <div class="col-md-5"></div>
+    <div class="col-md-7">
+      {{texts.home}}
+    </div>
+  </div>
+  <div class="third row">
+    <div class="col-md-3">
+      {{texts.column.affidabilita}}
+    </div>
+    <div class="col-md-3">
+      {{texts.column.software}}
+    </div>
+    <div class="col-md-3">
+      {{texts.column.prova}}
+    </div>
+  </div>
+  <div class="fourth row">
+    //Ci sarà la pagina con gli slider con le foto
+  </div>
+  <div class="fifth row">
+    <div class="col-md-8">
+      <div class="input-group">
+        <label>Nome:</label>
+        <input type="text" name="nome" placeholder="es.Stefano" class="form-control" required> <br />
+        <label >E-Mail:</label>
+        <input type="mail" name="mail" placeholder="es.prova@gmail.com" class="form-control" required> <br />
+        <label>Scrivi il testo qui:</label>
+        <textarea name="testo" class="form-control" required></textarea> <br />
+        <button type="button" class="btn btn-primary"> INVIA </button>
+      </div>
+    </div>
+  </div>
 
 
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 </body>
 </html>
