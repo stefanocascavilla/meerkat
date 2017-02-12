@@ -6,11 +6,8 @@
 }
 .logomeerkat {
   width: 25%;
-<<<<<<< HEAD
   height: 200px;
-=======
   height: 25%;
->>>>>>> 39429f300c2c8035767d2b512ae4737c8489958a
 }
 .titlem {
   font-size: 80px;
@@ -23,21 +20,13 @@
   color: black;
 }
 .second {
-<<<<<<< HEAD
-  background-image: url('weAre.jpg');
-=======
   background-image: url('weare.jpg');
->>>>>>> 39429f300c2c8035767d2b512ae4737c8489958a
   background-size: cover;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 .third {
-<<<<<<< HEAD
-  background-image:  url('weDo.jpg');
-=======
   background-image:  url('wedo.jpg');
->>>>>>> 39429f300c2c8035767d2b512ae4737c8489958a
   background-size: cover;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -52,15 +41,10 @@
   background-size: cover;
   padding-top: 10%;
   padding-bottom: 10%;
-<<<<<<< HEAD
 }
 .central { text-align: center; }
 .fontText {
-
 	font-size: 20px;
 	font-family: Expletus sans;
 	font-weight: bold;	// da utilizzare per qualche parola 'chiave', per evidenziarla
-
-=======
->>>>>>> 39429f300c2c8035767d2b512ae4737c8489958a
 }
